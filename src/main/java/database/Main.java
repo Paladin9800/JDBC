@@ -17,7 +17,7 @@ public class Main {
             statement = dbWorker.getConnection().createStatement();
             statement.executeUpdate(enter);
             resultSet = statement.executeQuery(query);
-
+// sdsdsdsdssdd
             while (resultSet.next()) {
                 User user = new User();
                 user.setId(resultSet.getInt(1));
